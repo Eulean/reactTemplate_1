@@ -2,7 +2,6 @@ import { Outlet, Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { useStore } from "@/store/useStore";
 import ThemeToggle from "./components/ThemeToggle";
-import { userStore } from "./store/userStore";
 
 function App() {
   const { count, increment, decrement } = useStore();
